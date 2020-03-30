@@ -1,0 +1,19 @@
+<html>
+  <head></head>
+  <body>
+    <table>
+      <thead>
+        <td>ID</td>
+        <td>NAME</td>
+        <td>AGE</td>
+        <td>ADDRESS</td>
+      </thead>
+      <tbody *ngFor="let item of person">
+        <td>{{item.Id}}</td>
+        <td>{{item.Name}}</td>
+        <td>{{item.Age}}</td>
+        <td>{{item.Address}}</td>
+      </tbody>
+    </table>
+  </body>
+</html>

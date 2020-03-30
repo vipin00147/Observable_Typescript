@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+    text-align: left;
+}
+thead{
+    padding: 12px;
+    background-color: black;
+    color: red;
+    font-size: 24px;
+}
+tbody{
+    background-color: aqua;
+    font-size: 22px;
+}
